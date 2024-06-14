@@ -470,7 +470,7 @@ img {
 /* ------------------------------- */
 /* --------------footer-------------- */
 .footer {
-  min-width: 320px;
+  /* min-width: 320px; */
   padding-top: 96px;
   padding-bottom: 96px;
   margin: 0 auto;
@@ -967,7 +967,7 @@ img {
 }
 /* -----------footer----------------- */
 .footer {
-  max-width: 768px;
+  /* max-width: 768px; */
 }
 .footer-container {
   display: flex;
@@ -1126,7 +1126,7 @@ img {
   /* ---------------------- */
   /* ----------footer1158------------------ */
   .footer {
-    max-width: 1158px;
+    /* max-width: 1158px; */
     padding: 100px 0;
   }
   .footer-container {
