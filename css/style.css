@@ -470,7 +470,7 @@ img {
 /* ------------------------------- */
 /* --------------footer-------------- */
 .footer {
-  max-width: 320px;
+  min-width: 320px;
   padding-top: 96px;
   padding-bottom: 96px;
   margin: 0 auto;
@@ -972,15 +972,15 @@ img {
 .footer-container {
   display: flex;
   gap: 72px 24px;
-  justify-content: left;
+  justify-content: flex-start;
 }
 .footer-left-part {
   max-width: 288px;
-  justify-content: left;
+  justify-content: flex-start;
   align-items: start;
 }
 .footer-right-part {
-  justify-content: left;
+  justify-content: flex-start;
   align-items: start;
 }
 .footer-title {
@@ -1130,17 +1130,16 @@ img {
     padding: 100px 0;
   }
   .footer-container {
-    max-width: 1158px;
+    /* max-width: 1158px; */
     flex-wrap: nowrap;
     gap: 0;
-    align-items: baseline;
   }
   .footer-left-part {
     min-width: 264px;
     margin-right: 120px;
   }
   .footer-logo {
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
   }
   .footer-title {
     text-align: left;
