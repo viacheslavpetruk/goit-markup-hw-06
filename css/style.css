@@ -49,6 +49,8 @@ img {
 .header-container {
   max-width: 320px;
   display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
   align-items: center;
   justify-content: space-between;
 }
@@ -160,6 +162,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 168px;
   margin-bottom: 48px;
@@ -272,7 +275,7 @@ img {
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 .features-icon-block {
   display: none;
@@ -295,7 +298,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   margin: 0;
-  padding-top: 8px;
+  /* padding-top: 8px; */
 }
 /* ------------------------------- */
 /* -----------team---------------- */
@@ -818,6 +821,8 @@ img {
   /* --------header-------------------- */
   .header-container {
     max-width: 768px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .logo {
     margin-right: 120px;
@@ -867,9 +872,12 @@ img {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    font-style: normal;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
+  li:first-child {
+    margin-bottom: 12px;
+  }
   .address-link:hover,
   .address-link:focus {
     color: #404bbf;
@@ -945,10 +953,11 @@ img {
   }
   /* -----------footer----------------- */
   .footer-container {
+    width: 584px;
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
-    padding-left: 92px;
+    margin: 0 auto;
   }
   .footer-left-part {
     max-width: 288px;
@@ -1012,6 +1021,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  li:first-child {
+    margin-bottom: 0;
   }
   /* ---------------------------------- */
   /* -------hero1158------------------- */
@@ -1110,6 +1122,7 @@ img {
     padding: 100px 0;
   }
   .footer-container {
+    width: 1128px;
     flex-wrap: nowrap;
     gap: 0;
     padding-left: 0;
